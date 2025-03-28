@@ -24,6 +24,7 @@ dependencies = [
 [dependency-groups]
 dev = [
     "hatchling>=1.27.0",
+    "pre-commit>=4.2.0",
     "treebeard",
 ]
 
@@ -44,4 +45,3 @@ packages = ["src/other"]
 
 [tool.uv.sources]
 treebeard = { workspace = true }
-
