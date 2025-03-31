@@ -11,7 +11,7 @@ This application currently relies on Groq for rapid LLM responses, which is plan
 5. Set environment variables, either in the terminal or in a `.env` file in the root directory. Example env:
 ```sh
 treebeard_sqlite_database_path = "ab\path\to\db.db"
-treebeard_grok_api_key = "groq_key"
+treebeard_groq_api_key = "groq_key"
 treebeard_groq_model = "llama-3.3-70b-versatile"
 ```
 6. Run `fastapi dev .\src\treebeard\`.
@@ -28,7 +28,7 @@ Prerequisite - Python 3.13
 6. Set environment variables, either in the terminal or in a `.env` file in the root directory. Example env:
 ```sh
 treebeard_sqlite_database_path = "ab\path\to\db.db"
-treebeard_grok_api_key = "groq_key"
+treebeard_groq_api_key = "groq_key"
 treebeard_groq_model = "llama-3.3-70b-versatile"
 ```
 7. Run `fastapi dev .\src\treebeard\`.

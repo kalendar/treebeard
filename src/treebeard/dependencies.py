@@ -22,7 +22,7 @@ __SESSIONMAKER = get_sessionmaker(
     database_url=f"sqlite:///{SETTINGS.sqlite_database_path}"
 )
 
-__GROQ_CLIENT: Groq = Groq(api_key=SETTINGS.grok_api_key)
+__GROQ_CLIENT: Groq = Groq(api_key=SETTINGS.groq_api_key)
 
 
 def __get_templates() -> Jinja2Templates:
